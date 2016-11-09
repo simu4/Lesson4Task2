@@ -36,6 +36,7 @@ while a.countOfFish.count != 0 {
 
 
 
-print("Dorry", dorry.weihtOFFish(), dorry.countOfFish.count)
-print("Nemo", nemo.weihtOFFish(), nemo.countOfFish.count)
-
+print("Dorry", dorry.weihtOFFish() + 10, dorry.countOfFish.count)
+print("Nemo", nemo.weihtOFFish()+10, nemo.countOfFish.count)
+if dorry.weihtOFFish() > nemo.weihtOFFish(){ print("Dorry wins the game")}
+else {print("Nemo wins the game")}
